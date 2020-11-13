@@ -1,0 +1,254 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(228, 228, 228, 0.2);
+}
+
+.header{
+    position: fixed;
+    top: 10px;
+    right: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(100, 148, 237, 0.2);
+    box-shadow: 0 3px 3px  rgba(100, 148, 237, 0.2);
+    z-index: 999;
+}
+
+.header h1{
+    margin: 10px;
+    padding: 5px;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.header .search{
+    margin: 13px;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    width: 150px;
+    height: 25px;
+    border:2px solid #40a8c4;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.header .search input{
+    margin-left: 30px;
+    width: 90px;
+    height: 23px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+}
+
+.header .search img{
+    width: 30px;
+    position: relative;
+    top: -28px;
+    left: 0px;
+}
+
+.header a{
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: -37px;
+    right: -1100px;
+    font-weight: 700;
+}
+
+.header .logo{
+    width: 60px;
+    position: relative;
+    top: -34px;
+    right: -1180px;
+}
+
+.sidebar{
+    width: 230px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    box-shadow: 2px 0 3px rgba(66, 66, 66, 0.2);
+}
+
+.sidebar ul li{
+    position: relative;
+    left: -25px;
+    top: 60px;
+    width: 200px;
+    height: 36px;
+    margin: 10px;
+    list-style: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.sidebar ul li:hover{
+    background-color: #40a8c4;
+}
+
+.sidebar ul li a{
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.sidebar ul li img{
+    width: 20px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 700;
+}
+
+.sidebar img{
+    width: 20px;
+    margin-left: 20px;
+    
+}
+
+.tengah {
+    position: relative;
+    top: 10px;
+    left: 250px;
+    width: 300px;
+    height: 100%;
+}
+
+.tengah h2{
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.tengah p{
+    margin-top: -20px;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color:rgb(39, 39, 39, 0.4);
+}
+
+.tengah img{
+    width: 90px;
+    position: relative;
+    top: -87px;
+    left: 230px;
+}
+
+.tengah ul li {
+    padding: 3px 3px 0 3px;
+    margin: 15px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    list-style: none;
+    position: relative;
+    top: -90px;
+    left: -40px;
+    box-shadow: 2px 2px 3px rgba(80, 80, 80, 0.3);
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.tengah ul li:hover{
+    background-color: rgba(100, 148, 237, 0.2);
+    border-left: 3px solid #40a8c4;
+}
+
+.tengah ul li a{
+    position: relative;
+    top: 4px;
+    left: 7px;
+    padding: 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.tengah ul li span{
+    font-size: 11px;
+    font-family: sans-serif;
+    color: rgb(63, 63, 63, 0.7);
+    padding: 10px 0 5px 18px;
+}
+.Monday{
+    background: #FFC93c;
+    width : 20%;
+    border-collapse:collapse;
+    box-shadow: 0px 0px 0px 0px;
+    overflow: hidden;
+    border:5px solid #FFC93c;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.Tuesday{
+    background: #FFC93c;
+    width : 20%;
+    border-collapse:collapse;
+    box-shadow: 0px 0px 0px 0px;
+    overflow: hidden;
+    border:5px solid #FFC93c;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px; 
+
+}
+.Wednesday{
+    background: #FFC93c;
+    width : 20%;
+    border-collapse:collapse;
+    box-shadow: 0px 0px 0px 0px;
+    overflow: hidden;
+    border:5px solid #FFC93c;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px; 
+}
+.zebra-table{
+    width : 120%;
+    border-collapse:collapse;
+    box-shadow: 0px 0px 2px 0px #40a8c4;
+    overflow: hidden;
+    border:5px solid #edf2f3
+} 
+.zebra-table th,.zebra-table td{
+    vertical-align: top;
+    padding: 10px 11px;
+    text-align: left;
+    margin: 0px;
+}
+.zebra-table tbody tr:nth-child(ood){/*
+    Make table like zebra */
+    background:#40a8c4;
+}/* End CSS for Zebra Table in myassignmen.html*/
+
+.isi {
+    width: 650px;
+    height: 100%;
+    position: fixed;
+    top: 70px;
+    right: 15px;
+    background-color: rgba(100, 148, 237, 0.2);
+    border-radius: 14px;
+    box-shadow: 0 0 3px 3px rgb(79, 79, 80,0.08);
+}
